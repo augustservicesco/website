@@ -51,6 +51,15 @@
   footer { background:#141f30; color:#8a93a5; font-size:13px; padding:28px 0; text-align:center; }
   footer a { color:#b8c4d4; }
 </style>
+<!-- MailerLite Universal -->
+<script>
+(function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+.push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+(window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+ml('account', '2407331');
+</script>
+<!-- End MailerLite Universal -->
 </head>
 <body>
 
@@ -184,11 +193,7 @@ function sendIntake(e) {
     <div class="kicker">Free Monthly Newsletter</div>
     <h2>Five minutes a month that keeps you ahead</h2>
     <p>Tax deadlines, payroll changes, QuickBooks updates, and money-saving topics for business owners — in plain English, once a month. Unsubscribe anytime with one click.</p>
-    <!-- SIGNUP FORM: replace this block with the embedded form from the email service (MailerLite etc.) once the account is created -->
-    <form class="form-row" action="#" method="post">
-      <input type="email" name="email" placeholder="you@yourbusiness.com" required>
-      <button type="submit">Sign Me Up</button>
-    </form>
+    <div class="ml-embedded" data-form="dhnPct" style="max-width:480px; margin:0 auto; text-align:left;"></div>
     <div class="fine">We send one email a month. No spam, no selling your address, unsubscribe anytime.</div>
   </div>
 </section>
